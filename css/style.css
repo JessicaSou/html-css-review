@@ -28,11 +28,6 @@
   font-size: 1.5rem;
  }
 
- #intro,
- #top-5,
- #team{
-  padding: 4em 0;
- }
 
  #header{
   background-color: black;
@@ -74,20 +69,31 @@ nav ul li a:focus{
  /* justify-content: center;*/
  }
 
+ #intro,
+ #top-5,
+ #team{
+  padding: 4em 0;
+ }
+
 #intro{
+  font-size: 2rem;
   background-color: #7251b5;
 }
 
 #intro p {
   max-width: 50%;
+  font-size: 1.5rem;
 }
 
 #top-5{
+  font-size: 2rem;
   background-color: black;
   color: #DEC9E9;
 }
 
+
 #top-5 ol{
+  font-size: 1.5rem;
   list-style: none;
   padding: 0;
   display: flex;
@@ -152,7 +158,12 @@ footer{
   padding: 1em;
 }
 
+h1,h2{
+  font-family: 'Wix Madefor Display' , sans-serif;
+}
+
 h1{
   font-size: 7rem;
-  font-weight: bold;
+  font-weight:900;
+  box-shadow: (16px 16px 10px black);
 }
