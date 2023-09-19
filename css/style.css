@@ -86,14 +86,19 @@ nav ul li a:focus{
 }
 
 #top-5{
-  font-size: 2rem;
   background-color: black;
   color: #DEC9E9;
 }
 
+#top-5 h2{
+  font-size: 3rem;
+}
+
+#top-5 h3{
+  font-size: 2rem;
+}
 
 #top-5 ol{
-  font-size: 1.5rem;
   list-style: none;
   padding: 0;
   display: flex;
